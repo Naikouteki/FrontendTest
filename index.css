@@ -1,0 +1,126 @@
+
+   /* Styling untuk body dan container */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #4CAF50;
+  }
+  
+  /* Form layout */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background: #fafafa;
+    position: relative;
+    transition: transform 0.3s ease;
+  }
+  
+  .row:hover {
+    transform: scale(1.02);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .row label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .row input[type="text"],
+  .row input[type="file"],
+  .row textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .row input[type="text"]:focus,
+  .row input[type="file"]:focus,
+  .row textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  
+  .row .actions {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  .row button {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .row button:hover {
+    background: #45A049;
+  }
+  
+  .error {
+    color: #E74C3C;
+    font-size: 0.85em;
+    margin-top: -8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling untuk tombol utama */
+  button {
+    margin: 10px 0;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45A049;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Styling untuk Quill Editor */
+  .ql-container {
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
